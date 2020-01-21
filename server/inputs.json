@@ -1,0 +1,78 @@
+{
+  "form_inputs": [
+    {
+      "label": "First name",
+      "name": "firstName",
+      "type": "text",
+      "value": null,
+      "rules": "required|min:2|max:64",
+      "options": [],
+      "default_value": null,
+      "multiple": false,
+      "readonly": false,
+      "placeholder": "First Name",
+      "info": "Example value of how to fill the input"
+    },
+    {
+      "label": "Last name",
+      "name": "lastName",
+      "type": "textarea",
+      "value": null,
+      "rules": "required|min:2|max:64",
+      "options": [],
+      "default_value": null,
+      "multiple": false,
+      "readonly": false,
+      "placeholder": "Last name",
+      "info": "Example value of how to fill the input"
+    },
+    {
+      "label": "Username",
+      "name": "username",
+      "type": "text",
+      "value": null,
+      "rules": "required|min:2|max:64",
+      "options": [],
+      "default_value": "Klendi",
+      "multiple": false,
+      "readonly": true,
+      "placeholder": "Username",
+      "info": "Username, you can't change it."
+    },
+    {
+      "label": "Age",
+      "name": "age",
+      "type": "number",
+      "value": null,
+      "rules": "required",
+      "options": [],
+      "default_value": null,
+      "multiple": false,
+      "readonly": false,
+      "placeholder": "Age",
+      "info": "Example value of how to fill the input"
+    },
+    {
+      "label": "Country",
+      "name": "country",
+      "type": "select",
+      "value": null,
+      "rules": "required|min:2|max:64",
+      "options": [
+        {
+          "label": "Albania",
+          "value": "albania"
+        },
+        {
+          "label": "Italy",
+          "value": "italy"
+        }
+      ],
+      "default_value": "albania",
+      "multiple": false,
+      "readonly": false,
+      "placeholder": "select",
+      "info": "Example value of how to fill the input"
+    }
+  ]
+}
